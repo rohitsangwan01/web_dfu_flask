@@ -42,6 +42,7 @@
   var BUTTON_UUID = "8ec90003-f315-4f60-9fb8-838830daea50";
   var LITTLE_ENDIAN = true;
   var PACKET_SIZE = 20;
+
   var OPERATIONS = {
     BUTTON_COMMAND: [0x01],
     CREATE_COMMAND: [0x01, 0x01],
@@ -53,6 +54,7 @@
     SELECT_DATA: [0x06, 0x02],
     RESPONSE: [0x60, 0x20],
   };
+  
   var RESPONSE = {
     // Invalid code
     0x00: "Invalid opcode",
